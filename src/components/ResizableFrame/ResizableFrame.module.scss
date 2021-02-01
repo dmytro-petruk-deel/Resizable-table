@@ -1,0 +1,25 @@
+.resizable {
+  background: #f9f8f8;
+  display: flex !important;
+  align-items: baseline;
+}
+
+.content table {
+  width: 100%;
+  border: solid 1px #ddd;
+  border-collapse: collapse;
+}
+
+.content td {
+  border: solid 1px #ddd;
+  padding: 3px;
+}
+
+.content td[t="s"] {
+  font-weight: bold;
+}
+
+.content td:empty {
+  padding: 0;
+  border: 0;
+}
